@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_reference_3" label="New Reference" language="en" table="x_251138_surplus_a_surplus_asset_change">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reference_3</element>
+            <help/>
+            <hint/>
+            <label>New Reference</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <plural>New References</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-31 16:23:57</sys_created_on>
+            <sys_id>41e11e43db231300c09671efbf961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>New Reference</sys_name>
+            <sys_package display_value="Surplus Asset Disposition" source="x_251138_surplus_a">c3ffc915db131300c09671efbf96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Surplus Asset Disposition">c3ffc915db131300c09671efbf96194b</sys_scope>
+            <sys_update_name>sys_documentation_x_251138_surplus_a_surplus_asset_change_u_reference_3_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-31 16:23:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

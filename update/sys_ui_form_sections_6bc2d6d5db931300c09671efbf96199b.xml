@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="6bc2d6d5db931300c09671efbf96199b" sys_domain="global" table="x_251138_surplus_a_surplus_asset_change" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 19:42:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>afc2d6d5db931300c09671efbf96199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_251138_surplus_a_surplus_asset_change" name="x_251138_surplus_a_surplus_asset_change" sys_domain="global" view="Default view">6bc2d6d5db931300c09671efbf96199b</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_251138_surplus_a_surplus_asset_change" sys_domain="global" view="Default view">796f0299db131300c09671efbf961976</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 19:42:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-23 21:09:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b76cae8dba31300c09671efbf9619cf</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_251138_surplus_a_surplus_asset_change" name="x_251138_surplus_a_surplus_asset_change" sys_domain="global" view="Default view">6bc2d6d5db931300c09671efbf96199b</sys_ui_form>
+            <sys_ui_section caption="Approval Section" display_value="Approval Section" name="x_251138_surplus_a_surplus_asset_change" sys_domain="global" view="Default view">ef768ae8dba31300c09671efbf961956</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-01 21:46:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-14 00:19:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a125719db171300c09671efbf9619f0</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_251138_surplus_a_surplus_asset_change" name="x_251138_surplus_a_surplus_asset_change" sys_domain="global" view="Default view">6bc2d6d5db931300c09671efbf96199b</sys_ui_form>
+            <sys_ui_section caption="Work Notes &amp; Status Fields" display_value="Work Notes &amp; Status Fields" name="x_251138_surplus_a_surplus_asset_change" sys_domain="global" view="Default view">46121719db171300c09671efbf9619bb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-01 21:46:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-01 21:45:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2105606fdb2f1300c09671efbf961941</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_251138_surplus_a_surplus_asset_change" name="x_251138_surplus_a_surplus_asset_change" sys_domain="global" view="Default view">6bc2d6d5db931300c09671efbf96199b</sys_ui_form>
+            <sys_ui_section caption="Misc" display_value="Misc" name="x_251138_surplus_a_surplus_asset_change" sys_domain="global" view="Default view">2105606fdb2f1300c09671efbf96193d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-01 21:46:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 19:42:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bc2d6d5db931300c09671efbf96199b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_251138_surplus_a_surplus_asset_change</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Surplus Asset Disposition" source="x_251138_surplus_a">c3ffc915db131300c09671efbf96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Surplus Asset Disposition">c3ffc915db131300c09671efbf96194b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6bc2d6d5db931300c09671efbf96199b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 19:42:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

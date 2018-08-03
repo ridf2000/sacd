@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Furniture Category" max_length="40" name="x_251138_surplus_a_furniture_category" type="collection">
+        <element display="true" label="furniturecategory" max_length="40" name="furniturecategory" type="string"/>
+    </element>
+</database>

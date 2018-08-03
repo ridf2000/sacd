@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_pgpa" label="PGPA Approval" language="en" table="x_251138_surplus_a_surplus_asset_change">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_pgpa</element>
+            <help/>
+            <hint/>
+            <label>PGPA Approval</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <plural>PGPA Approvals</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-19 17:38:10</sys_created_on>
+            <sys_id>5fcf289fdb1b1300c09671efbf9619ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>PGPA Approval</sys_name>
+            <sys_package display_value="Surplus Asset Disposition" source="x_251138_surplus_a">c3ffc915db131300c09671efbf96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Surplus Asset Disposition">c3ffc915db131300c09671efbf96194b</sys_scope>
+            <sys_update_name>sys_documentation_x_251138_surplus_a_surplus_asset_change_u_pgpa_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-19 17:38:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

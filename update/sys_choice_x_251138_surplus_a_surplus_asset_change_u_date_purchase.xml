@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_date_purchase" table="x_251138_surplus_a_surplus_asset_change" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Before 2003</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>379ee695dbd31300c09671efbf96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>before2003</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2003</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b39ee695dbd31300c09671efbf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2003</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2004</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f9ee695dbd31300c09671efbf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2004</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2005</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08aee695dbd31300c09671efbf961931</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2005</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2006</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>4</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0aee695dbd31300c09671efbf961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2006</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2007</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8caee695dbd31300c09671efbf961934</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2007</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2008</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48aee695dbd31300c09671efbf961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2008</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2009</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>04aee695dbd31300c09671efbf961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2009</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2010</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>8</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccaee695dbd31300c09671efbf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2010</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2011</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>9</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88aee695dbd31300c09671efbf96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2011</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2012</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44aee695dbd31300c09671efbf96193d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2012</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2013</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>11</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>00aee695dbd31300c09671efbf96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2013</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2014</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>12</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8aee695dbd31300c09671efbf961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+            <value>2014</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2015</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84aee695dbd31300c09671efbf961942</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:25</sys_updated_on>
+            <value>2015</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2016</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>14</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40aee695dbd31300c09671efbf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:25</sys_updated_on>
+            <value>2016</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_date_purchase</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mixed or don't know</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sequence>15</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0caee695dbd31300c09671efbf961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:25</sys_updated_on>
+            <value>mixed</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_date_purchase</element>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 21:44:24</sys_created_on>
+            <sys_id>7f9ee695dbd31300c09671efbf96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_date_purchase</sys_name>
+            <sys_package display_value="Surplus Asset Disposition" source="x_251138_surplus_a">c3ffc915db131300c09671efbf96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Surplus Asset Disposition">c3ffc915db131300c09671efbf96194b</sys_scope>
+            <sys_update_name>sys_choice_x_251138_surplus_a_surplus_asset_change_u_date_purchase</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 21:44:24</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

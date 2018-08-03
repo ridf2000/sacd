@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="furniture_lookup_and_calc" label="Furniture Lookup and Calc" language="en" table="x_251138_surplus_a_u_surplus_asset_furniture">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>furniture_lookup_and_calc</element>
+            <help/>
+            <hint/>
+            <label>Furniture Lookup and Calc</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_u_surplus_asset_furniture</name>
+            <plural>Furniture Lookup and Calcs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-01 16:31:53</sys_created_on>
+            <sys_id>834d531bdbab1300c09671efbf9619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Furniture Lookup and Calc</sys_name>
+            <sys_package display_value="Surplus Asset Disposition" source="x_251138_surplus_a">c3ffc915db131300c09671efbf96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Surplus Asset Disposition">c3ffc915db131300c09671efbf96194b</sys_scope>
+            <sys_update_name>sys_documentation_x_251138_surplus_a_u_surplus_asset_furniture_furniture_lookup_and_calc_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-01 16:31:53</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

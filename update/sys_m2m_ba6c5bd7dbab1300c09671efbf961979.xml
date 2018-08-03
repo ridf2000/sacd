@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_251138_surplus_a_surplus_asset_change</from_table>
+        <m2m_from_field>surplus_asset_change</m2m_from_field>
+        <m2m_from_label>Furniture Lookup and Calcs</m2m_from_label>
+        <m2m_table>x_251138_surplus_a_u_surplus_asset_furniture</m2m_table>
+        <m2m_to_field>furniture_lookup_and_calc</m2m_to_field>
+        <m2m_to_label>Surplus Asset Changes</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-01 16:31:52</sys_created_on>
+        <sys_id>ba6c5bd7dbab1300c09671efbf961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_251138_surplus_a_u_surplus_asset_furniture</sys_name>
+        <sys_package display_value="Surplus Asset Disposition" source="x_251138_surplus_a">c3ffc915db131300c09671efbf96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Surplus Asset Disposition">c3ffc915db131300c09671efbf96194b</sys_scope>
+        <sys_update_name>sys_m2m_ba6c5bd7dbab1300c09671efbf961979</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-01 16:31:52</sys_updated_on>
+        <to_table>x_251138_surplus_a_furniture_lookup_and_calc</to_table>
+    </sys_m2m>
+</record_update>

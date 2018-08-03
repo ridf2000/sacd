@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_expense" label="Expense Type" language="en" table="x_251138_surplus_a_surplus_asset_change">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_expense</element>
+            <help/>
+            <hint/>
+            <label>Expense Type</label>
+            <language>en</language>
+            <name>x_251138_surplus_a_surplus_asset_change</name>
+            <plural>Expense Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-27 17:57:28</sys_created_on>
+            <sys_id>c4f0ceb1db231300c09671efbf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Expense Type</sys_name>
+            <sys_package display_value="Surplus Asset Disposition" source="x_251138_surplus_a">c3ffc915db131300c09671efbf96194b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Surplus Asset Disposition">c3ffc915db131300c09671efbf96194b</sys_scope>
+            <sys_update_name>sys_documentation_x_251138_surplus_a_surplus_asset_change_u_expense_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-27 17:57:28</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

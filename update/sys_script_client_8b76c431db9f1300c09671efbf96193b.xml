@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Client side script that fires after user submits action.   Checks the state of the record and advances the record to the next state.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>advance state of request</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Check if this is a New request, if so advance state
+	if(g_form.getValue('state') == "0") {
+		 
+		g_form.setValue('state', "10","Pending Supervisor Approval");
+		g_form.setValue('approval',"requested","Requested");
+		
+		return true;
+	}
+	
+	//Check if the supervisor did any action, if no action, then alert
+	if((g_form.getValue('state') == "10") 
+		   && (g_form.getValue('approval') == "requested")) 
+	{
+		g_form.showErrorBox('approval', "Supervisor, please select Approve or Reject");
+		return false;
+	}
+	
+	//Check if the CBRES Finance approver did any action, if no action then alert
+	if((g_form.getValue('state') == "11") 
+		   && (g_form.getValue('u_cbres_finance_approval') == "requested")) 
+	{
+		g_form.showErrorBox('u_cbres_finance_approval', "CBRES Approver, please select Approve or Reject");
+		return false;
+	}	
+	
+	//Check if the TOCA approver did any action, if no action then alert
+	if((g_form.getValue('state') == "12") 
+		   && (g_form.getValue('u_toca') == "requested")) 
+	{
+		g_form.showErrorBox('u_toca', "TOCA Approver, please select Approve or Reject");
+		return false;
+	}	
+	
+	//Check if the PGPA approver did any action, if required,
+	//If no action then alert
+	if((g_form.getValue('state') == "13")
+		  && (g_form.getValue('u_pgpa') == "requested"))
+		{
+			g_form.showErrorBox('u_pgpa', "PGPA Approver, please select Approve or Reject");
+			return false;
+		}
+	
+	//Check if the Recipient approver did any action, if required,
+	//If no action then alert
+	if((g_form.getValue('state') == "14")
+		  && (g_form.getValue('u_recipient') == "requested"))
+		{
+			g_form.showErrorBox('u_recipient', "Recipient Approver, please select Approve or Reject");
+			return false;
+		}	
+	
+	
+	//This next section is to check which role has approved.
+	//and also which state is the request in
+	//based on that then the script advances the state to the next steps
+
+	//if supervisor has approved, then advance the state to CBRES
+	if((g_form.getValue('approval') == "approved")  
+		   && (g_form.getValue('state') == "10"))
+	{
+		//alert("supervisor approved");
+		g_form.setValue('state', "11","Pending CBRES Approval");
+		g_form.setValue('u_cbres_finance_approval',"requested", "Requested");
+
+	}
+
+	//if CBRES has approved, then advance the state to TOCA
+	if((g_form.getValue('u_cbres_finance_approval') == "approved")  
+		   && (g_form.getValue('state') == "11"))
+	{
+		//alert("cbres approved");
+		g_form.setValue('state', "12","Pending TOCA Approval");
+		g_form.setValue('u_toca',"requested", "Requested");
+
+	}
+	
+	//if TOCA has approved, check to see if disposition is a donation
+	//if so, then you need to get PGPA approval
+	//else if PGPA doesn't need to approve then check to see if receipient
+	// needs to approve.
+	if((g_form.getValue('u_toca') == "approved")
+		   && (g_form.getValue('state') == "12")
+		   && (g_form.getValue('u_disposition') == "donateirn"))
+		{
+			//alert("This will need PGPA approval");	
+			g_form.setValue('state', "13", "Pending PGPA Approval");
+			g_form.setValue('u_pgpa', "requested", "Requested");
+		} 
+	else if ((g_form.getValue('u_toca') == "approved")
+				 && (g_form.getValue('state') == "12")
+				&&	((g_form.getValue('u_disposition') == "repurposecbres") 
+				  || (g_form.getValue('u_disposition') == "repurposechevron")
+				  || (g_form.getValue('u_disposition') == "networkinternational")
+				  || (g_form.getValue('u_disposition') == "recycle")) )
+		{
+			//alert("TOCA was approved, due to disposition type going to recipient");
+			g_form.setValue('state', "14", "Pending Recipient Approval");
+			g_form.setValue('u_recipient', "requested", "Requested");
+			//set PGPA approval to Not Required
+			g_form.setValue('u_pgpa', "not required", "Not Required");
+		}
+	else if ((g_form.getValue('u_toca') == "approved")
+				&& (g_form.getValue('state') == "12")
+				&& (g_form.getValue('u_asset_type') == "artwork"))
+		{
+			alert("TOCA Approved and it's artwork");
+		}
+
+	//if PGPA has approved, then advance to recipient stage
+	if((g_form.getValue('u_pgpa') == "approved")
+	   && (g_form.getValue('state') == "13"))
+		{
+			g_form.setValue('u_recipient', "requested", "Requested");
+			g_form.setValue('state', "14", "Pending Recipient Approval");
+		}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-14 22:55:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8b76c431db9f1300c09671efbf96193b</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>advance state of request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Surplus Asset Disposition" source="x_251138_surplus_a">c3ffc915db131300c09671efbf96194b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Surplus Asset Disposition">c3ffc915db131300c09671efbf96194b</sys_scope>
+        <sys_update_name>sys_script_client_8b76c431db9f1300c09671efbf96193b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-26 16:51:56</sys_updated_on>
+        <table>x_251138_surplus_a_surplus_asset_change</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

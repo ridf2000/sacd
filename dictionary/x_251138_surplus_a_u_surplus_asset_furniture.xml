@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="u_surplus_asset_furniture" max_length="40" name="x_251138_surplus_a_u_surplus_asset_furniture" type="collection">
+        <element label="Furniture Lookup and Calc" max_length="32" name="furniture_lookup_and_calc" reference="x_251138_surplus_a_furniture_lookup_and_calc" type="reference"/>
+        <element label="Surplus Asset Change" max_length="32" name="surplus_asset_change" reference="x_251138_surplus_a_surplus_asset_change" type="reference"/>
+        <index name="index">
+            <element name="surplus_asset_change"/>
+        </index>
+        <index name="index2">
+            <element name="furniture_lookup_and_calc"/>
+        </index>
+    </element>
+</database>

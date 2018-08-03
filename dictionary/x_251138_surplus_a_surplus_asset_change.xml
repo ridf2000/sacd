@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Surplus Asset Change" max_length="40" name="x_251138_surplus_a_surplus_asset_change" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Asset Type Description" max_length="40" name="u_asset_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Surplus Asset Type" mandatory="true" max_length="40" name="u_asset_type" type="string">
+            <choice>
+                <element label="Furniture" sequence="0" value="furniture"/>
+                <element label="Appliances" sequence="1" value="appliances"/>
+                <element label="AV Equipment" sequence="2" value="avequipment"/>
+                <element label="Supplies" sequence="3" value="supplies"/>
+                <element label="Artwork" sequence="4" value="artwork"/>
+            </choice>
+        </element>
+        <element label="Capital" max_length="40" name="u_boolean_14" type="boolean"/>
+        <element label="Capital" max_length="40" name="u_capital" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not requested" label="CBRES Finance Approval" max_length="40" name="u_cbres_finance_approval" type="string">
+            <choice>
+                <element label="Not Yet Requested" sequence="0" value="not requested"/>
+                <element label="Requested" sequence="1" value="requested"/>
+                <element label="Approved" sequence="2" value="approved"/>
+                <element label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Date of Purchase" mandatory="true" max_length="40" name="u_date_purchase" type="string">
+            <choice>
+                <element label="Before 2003" sequence="0" value="before2003"/>
+                <element label="2003" sequence="1" value="2003"/>
+                <element label="2004" sequence="2" value="2004"/>
+                <element label="2005" sequence="3" value="2005"/>
+                <element label="2006" sequence="4" value="2006"/>
+                <element label="2007" sequence="5" value="2007"/>
+                <element label="2008" sequence="6" value="2008"/>
+                <element label="2009" sequence="7" value="2009"/>
+                <element label="2010" sequence="8" value="2010"/>
+                <element label="2011" sequence="9" value="2011"/>
+                <element label="2012" sequence="10" value="2012"/>
+                <element label="2013" sequence="11" value="2013"/>
+                <element label="2014" sequence="12" value="2014"/>
+                <element label="2015" sequence="13" value="2015"/>
+                <element label="2016" sequence="14" value="2016"/>
+                <element label="Mixed or don't know" sequence="15" value="mixed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Disposition Type" max_length="40" name="u_disposition" type="string">
+            <choice>
+                <element label="Repurpose within CBRES" sequence="0" value="repurposecbres"/>
+                <element label="Repurpose within Chevron to non-CBRES" sequence="1" value="repurposechevron"/>
+                <element label="Recycle" sequence="2" value="recycle"/>
+                <element label="Standard Asset Disposal" sequence="3" value="standardl"/>
+                <element label="Donate utilizing IRN" sequence="4" value="donateirn"/>
+                <element label="Direct Donation to Charity" sequence="5" value="directdonation"/>
+                <element label="Auction/Sale with Network International" sequence="6" value="networkinternational"/>
+                <element label="Exception Process (non US)" sequence="7" value="exceptionprocess"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Event Status" max_length="40" name="u_eventstatus" type="string">
+            <choice>
+                <element label="Active" sequence="0" value="active"/>
+                <element label="Complete" sequence="1" value="complete"/>
+                <element label="Canceled" sequence="2" value="canceled"/>
+            </choice>
+        </element>
+        <element label="Event Lead Name" mandatory="true" max_length="32" name="u_event_lead_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Event Name" mandatory="true" max_length="50" name="u_event_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Expense Type" max_length="40" name="u_expense" type="string">
+            <choice>
+                <element label="Capital" sequence="0" value="capital"/>
+                <element label="Operational" sequence="1" value="operational"/>
+                <element label="Mixed/Don't Know" sequence="2" value="mixed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Finance Partner" mandatory="true" max_length="40" name="u_finance_partner" type="string">
+            <choice>
+                <element label="USELA: Steve Brown" sequence="0" value="usela"/>
+                <element label="USWC: Tom Sahn" sequence="1" value="uswc"/>
+                <element label="EMEA: Andrea Rade" sequence="2" value="emea"/>
+                <element label="APAC: Lisa Diamond" sequence="3" value="apac"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_asset_type" choice_table="x_251138_surplus_a_surplus_asset_change" dependent="u_furniture_category" dependent_on_field="u_furniture_category" label="Furniture Category" max_length="40" name="u_furniture_category" reference="x_251138_surplus_a_furniture_category" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_furniture_category" dependent_on_field="u_furniture_category" label="Furniture Type" max_length="40" name="u_furniture_type" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" display="true" label="New List" max_length="1024" name="u_glide_list_4" reference="x_251138_surplus_a_furniture_lookup_and_calc" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Approval" max_length="40" name="u_instruction" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Item Name" max_length="40" name="u_item_name" type="string"/>
+        <element label="Mixed or Don't Know" max_length="40" name="u_mixed" type="boolean"/>
+        <element label="Operational" max_length="40" name="u_operational" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not requested" label="PGPA Approval" max_length="40" name="u_pgpa" type="string">
+            <choice>
+                <element label="Not Yet Requested" sequence="0" value="not requested"/>
+                <element label="Requested" sequence="1" value="requested"/>
+                <element label="Approved" sequence="2" value="approved"/>
+                <element label="Rejected" sequence="3" value="rejected"/>
+                <element label="Not Required" sequence="4" value="not required"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price" type="price"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not yet requsted" label="Recipient Approval" max_length="40" name="u_recipient" type="string">
+            <choice>
+                <element label="Not Yet Requsted" sequence="0" value="not yet requsted"/>
+                <element label="Requested" sequence="1" value="requested"/>
+                <element label="Approved" sequence="2" value="approved"/>
+                <element label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Recipient Email" max_length="40" name="u_recipient_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Recipient Name" max_length="40" name="u_recipient_name" type="string"/>
+        <element label="New Reference" max_length="32" name="u_reference_2" reference="x_251138_surplus_a_furniture_category" type="reference"/>
+        <element label="New Reference" max_length="32" name="u_reference_3" reference="x_251138_surplus_a_furniture_lookup_and_calc" type="reference"/>
+        <element label="Supervisor Approval" max_length="40" name="u_supervisor" read_only="true" type="boolean"/>
+        <element attributes="base_start=true" default="x_251138_surplus_a_furniture_lookup_and_calc" label="New Table Name" max_length="80" name="u_table_name_1" type="table_name"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not requested" label="TOCA Approval" max_length="40" name="u_toca" type="string">
+            <choice>
+                <element label="Not Yet Requested" sequence="0" value="not requested"/>
+                <element label="Requested" sequence="1" value="requested"/>
+                <element label="Approved" sequence="2" value="approved"/>
+                <element label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Year of Purchase" max_length="40" name="u_year" type="string">
+            <choice>
+                <element label="Before 2003" sequence="0" value="before2003"/>
+                <element label="2004" sequence="1" value="2004"/>
+                <element label="2005" sequence="2" value="2005"/>
+                <element label="2006" sequence="3" value="2006"/>
+                <element label="2007" sequence="4" value="2007"/>
+                <element label="2008" sequence="5" value="2008"/>
+                <element label="2009" sequence="6" value="2009"/>
+                <element label="2010" sequence="7" value="2010"/>
+                <element label="2011" sequence="8" value="2011"/>
+                <element label="2012" sequence="9" value="2012"/>
+                <element label="2013" sequence="10" value="2013"/>
+                <element label="2014" sequence="11" value="2014"/>
+                <element label="2015" sequence="12" value="2015"/>
+                <element label="2016" sequence="13" value="2016"/>
+                <element label="2017" sequence="14" value="2017"/>
+                <element label="2018" sequence="15" value="2018"/>
+            </choice>
+        </element>
+    </element>
+</database>

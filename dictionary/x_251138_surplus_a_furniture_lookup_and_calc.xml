@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Furniture Lookup and Calc" max_length="40" name="x_251138_surplus_a_furniture_lookup_and_calc" type="collection">
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
+            <choice>
+                <element label="Accessories" sequence="0" value="accessories"/>
+                <element label="Bookcases" sequence="1" value="bookcases"/>
+                <element label="Cabinets" sequence="2" value="cabinets"/>
+                <element label="Lounge Chairs" sequence="3" value="loungechairs"/>
+                <element label="Ergo Chair" sequence="4" value="ergochair"/>
+                <element label="Guest Chair" sequence="5" value="guestchair"/>
+                <element label="Conference Chair" sequence="6" value="conferencechair"/>
+                <element label="Stool" sequence="7" value="stool"/>
+                <element label="Cafe" sequence="8" value="cafe"/>
+                <element label="Credenzas" sequence="9" value="credenzas"/>
+                <element label="Files" sequence="10" value="files"/>
+                <element label="Pedestals" sequence="11" value="pedestals"/>
+                <element label="Sit Stands" sequence="12" value="sitstands"/>
+                <element label="Tables" sequence="13" value="tables"/>
+                <element label="Visual Boards" sequence="14" value="visualboards"/>
+                <element label="Wood Furniture" sequence="15" value="woodfurniture"/>
+                <element label="Workstation" sequence="16" value="workstation"/>
+                <element label="Equipment" sequence="17" value="equipment"/>
+            </choice>
+        </element>
+        <element choice="3" choice_field="category" dependent="category" dependent_on_field="category" display="true" label="Name" mandatory="true" max_length="40" name="name" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="bookcases" label="Bookcases 2 - High" value="bookcases2high"/>
+                <element dependent_value="bookcases" label="Bookcases 3 - High" value="bookcases3high"/>
+                <element dependent_value="bookcases" label="Bookcases 4 - High" value="bookcases4high"/>
+                <element dependent_value="cabinets" label="Combination Cabinet w/Lock 2 Drawers" value="combinationcabinetwlock2drawers"/>
+                <element dependent_value="cabinets" label="Combination Cabinet w/Lock 3 Drawers" value="combinationcabinetwlock3drawers"/>
+                <element dependent_value="accessories" label="Letter Box" value="letterbox"/>
+                <element dependent_value="accessories" label="Monitor Arm" value="monitorarm"/>
+            </choice>
+        </element>
+        <element label="quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Value" max_length="40" name="value" type="float"/>
+        <element choice="1" label="Year" max_length="40" name="year" type="choice">
+            <choice>
+                <element label="Pre 2003" sequence="0" value="pre2003"/>
+                <element label="2004" sequence="1" value="2004"/>
+                <element label="2005" sequence="2" value="2005"/>
+                <element label="2006" sequence="3" value="2006"/>
+                <element label="2007" sequence="4" value="2007"/>
+                <element label="2008" sequence="5" value="2008"/>
+                <element label="2009" sequence="6" value="2009"/>
+                <element label="2010" sequence="7" value="2010"/>
+                <element label="2011" sequence="8" value="2011"/>
+                <element label="2012" sequence="9" value="2012"/>
+                <element label="2013" sequence="10" value="2013"/>
+                <element label="2014" sequence="11" value="2014"/>
+                <element label="2015" sequence="12" value="2015"/>
+                <element label="2016" sequence="13" value="2016"/>
+                <element label="2017" sequence="14" value="2017"/>
+                <element label="2018" sequence="15" value="2018"/>
+            </choice>
+        </element>
+    </element>
+</database>
